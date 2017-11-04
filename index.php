@@ -25,7 +25,8 @@ if( !is_dir( 'application/view/themes/'. __THEME__ .'/') )
     }    
     else
     {
-        echo 'Ola q ase';
+        include_once( "application/controller/homeCtrl.php" );
+        $home = new homeCtrl();
+        $home->load();    
     }
-
 ?>
