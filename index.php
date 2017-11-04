@@ -13,6 +13,7 @@ if( !is_dir( 'application/view/themes/'. __THEME__ .'/') )
 /* ===[ archivos necesarios ]=== */
 //codigo aqui
 
+
 /* ===[ manejo de variables ]=== */
     if( $_POST )
     {
